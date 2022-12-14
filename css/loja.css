@@ -1,0 +1,78 @@
+#pagina-loja{
+	min-width: 1310px;
+	max-width: 1366px;
+}
+
+*{
+	margin: 0 auto;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+
+h1{
+	font-size:32px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.links{
+	height: 200px;
+
+}
+
+.links ul{
+	padding: 0;
+	display: table;
+
+}
+.links li{
+
+	
+	display: table-cell;
+	text-align: center;
+	width:250px;
+	vertical-align: middle
+}
+.links a{
+
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+}
+
+
+.titulo h2{
+	font-size:45px;
+	text-align: left;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	margin-bottom: 50px;
+
+}
+
+
+.produtos article {
+	display:inline-block;
+	width: 300px;
+	height: 200px;
+	margin-left:35px;
+	margin-right: 35px;
+
+
+}
+.produtos img {
+	 width: 200px;
+	 height: 200px;
+
+
+}
+
+.preço{
+	text-transform: uppercase;
+	color: #eead2d;
+
+
+}

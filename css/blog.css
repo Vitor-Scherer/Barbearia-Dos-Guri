@@ -1,0 +1,56 @@
+#pagina-blog{
+	min-width: 1310px;
+	max-width: 1366px;
+}
+
+
+
+*{
+	margin: 0 auto;
+	text-decoration: none;
+
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+}
+
+body{
+	background-color: #111;
+}
+
+
+
+img {
+display: inline;
+	width: 200px;
+	height: 200px;
+}
+	
+
+h1{
+	text-align: center;
+	
+}
+
+.blogs{
+	width: 60%;
+	height: 300px;
+	margin-top: 50px;
+	border: solid #fff;
+
+
+}
+.blogs h2 {
+	text-align: center;
+	margin-bottom: 40px;
+
+}
+.blogs p {
+	text-align: left;
+}
+.blogs a {
+font-size: 25px;
+color: #eee;
+
+} 
+
+

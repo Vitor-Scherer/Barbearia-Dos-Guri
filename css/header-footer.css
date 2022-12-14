@@ -1,0 +1,195 @@
+
+/*------------------------ CABEÇALHO --------------------------- */
+
+header {
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#logo{
+    width: 300px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.div-header{
+    min-width: 960px;
+    max-width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    
+
+}
+
+.h1{
+    width: 500px;
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+    padding-top: 20px;
+    float: left;
+    /* Quando usa o float ele pega o espaço todo */
+    clear: both;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.nav_header {
+    float: right;
+    padding-top: 30px;
+}
+
+.nav_header ul {
+    padding: 0;
+    display: table;
+}
+
+.nav_header ul li{
+    display: table-cell;
+    text-align: center;
+}
+
+#horarios{
+    display: table-cell;
+    width: 150px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#login{
+    display: table-cell;
+    width: 65px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#cadastro{
+    display: table-cell;
+    width: 150px;
+    text-decoration: none;
+    font-size: 22px;
+   
+}
+
+.nav_header ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+.nav_header ul li :hover{
+    color: gray;
+}
+
+
+/* ------------- NAV 2 -------------- */
+.div_menus{
+    min-width: 400px;
+    max-width: 600px;
+    height: 50px;
+    margin: 0 auto;
+    
+}
+
+.nav_menus {
+    display: table-cell;
+    font-size: 15px;
+    
+}
+
+.nav_menus ul {
+    padding: 0;
+    display: table;
+    
+}
+
+.nav_menus ul li{
+    display: table-cell;
+    text-align: center;
+    width: 200px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.nav_menus ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav_menus ul li:hover{
+    border-bottom: 5px solid grey;
+}
+
+/* ---------------------------------------------------------------- */
+
+/* ----------------- RODAPÉ --------------- */
+
+footer{
+    width: 100%;
+    background-color:black;
+    height: 300px;
+    
+}
+
+#localizacao{
+    width: 500px;
+    height: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+#localizacao iframe{
+    width: 500px;
+    height: 150px;
+
+}
+#redes{
+    float: left;
+    text-align: left;
+    padding-left: 70px;
+    padding-right: 100px;
+    
+}
+
+footer h2{
+    color: white;
+}
+
+#redes ul{
+    list-style:none;
+    padding-left: 20px;
+    color: white;
+
+}
+
+#redes h2{
+    padding-left: 40px;
+}
+
+#redes ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#noticias{
+    width: 25%;
+    height: 100px;
+    float: right;
+   
+}
+
+footer div{
+    float: left;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}

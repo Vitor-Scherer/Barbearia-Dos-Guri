@@ -1,0 +1,39 @@
+#pagina-cadastro{
+    min-width: 1310px;
+	max-width: 1366px;
+}
+
+*{
+    margin: 0;
+}
+
+
+#dados{
+    width: 100%;
+    height: 100%;
+    font-family: 'Oswald', sans-serif; 
+    background-color: #0d0b0c;
+    font-family: 'Oswald', sans-serif;
+    color: aliceblue;
+   
+}
+
+.input,
+#dados textarea{
+    display:block;
+    width: 400px;
+    font-size:15px;
+    margin:10px 20px;
+    border: solid 1px #0c3bd6;
+    
+}
+
+
+
+#submit{
+    width: 150px;
+    background-color: #0c3bd6;
+    color: aliceblue;
+}
+
+    

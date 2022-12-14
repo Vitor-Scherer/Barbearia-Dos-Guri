@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Barbearia dos guri - Cadastro </title>
+        <link rel="stylesheet" href="css/cadastro.css">
+        <link rel="stylesheet" href="css/header-footer.css">
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Rufina&display=swap%27");
+        </style> 
+    </head>
+
+    <body>
+        <div id="pagina-cadastro">
+            <header>
+                <div class="div-header">
+                    <a class="h1" href="index.html">Os Guri Barber</a>
+                    
+                    <img id="logo" src="imagens/Barbearia.png" alt="logo">
+                
+                
+                    <nav class="nav_header">
+                        <ul>
+                            <li> <a id="horarios" href="meus-horarios.html">Meus horários</a> </li>
+                            <li> <a id="login" href="login.html">Login</a> </li>
+                            <li> <a id="cadastro" href="cadastro.html">Cadastro</a></li>
+                        </ul>
+                    
+                    </nav>
+        
+                </div>
+                
+            </header>
+
+        
+        
+    
+            <form name="formulario-cadastro" action="dados.php" method="post" id="dados" >
+                <fieldset>
+                    <legend>Dados cadastrais</legend>
+                        
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" name="nome" class="input" autofocus>
+                    
+                    <label for="data">Data de Nascimento:</label>
+                    <input type="date" name="data" class="input" max="01/01/2022" min="01/01/1900">
+                        
+                    <label for="email">Informe seu Email:</label>
+                    <input type="email" name="email" class="input" placeholder="exeplo@dominio.com" required>
+                        
+                        
+                    <label for="Senha">Informe sua senha:</label>
+                    <input type="password" name="senha" class="input">
+            
+        
+        
+        
+                    <label for="end">Digite seu endereço: </label>
+                    <input type="text" name="end" class="input" required>
+                    <label for="num"> Número: </label>
+                    <input type="text" name="num" class="input" required>
+                    <label for="comp">Complmento:</label>
+                    <input type="text" name="comp" class="input">
+                    
+
+                    <label for="telefone">Insira seu telefone celular: </label>
+                    <input type="tel" name="telefone" class="input">
+                        
+
+                    <input type="submit" id="submit" name="submit">
+
+                </fieldset>
+            </form>
+            
+            <footer>
+                <div id="redes">
+                    <h2>Siga Nós</h2> <br>
+        
+                    <nav>
+                        <ul>
+                            <li> <i class="fa-brands fa-instagram"></i> <a href="#">Instagram</a> </li>
+                            <li> <i class="fa-brands fa-facebook"></i> <a href="#">Facebook</a> </li>
+                            <li> <i class="fa-brands fa-youtube"></i> <a href="#">Youtube</a> </li>
+                        </ul>
+                    
+                    </nav>
+        
+                </div>
+        
+        
+                <div id="localizacao">
+                    <h2>Localização</h2> <br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3131939.4131176537!2d-90.4970032!3d39.951799099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88135512e7397459%3A0xe2e1d2e6b87ec3c3!2sBoone%20Village%20Barber%20Shop!5e0!3m2!1spt-BR!2sbr!4v1669139880098!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" 
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+                </div>
+        
+            
+                <div id="noticias">
+                    <h2>Newsletter</h2>
+                    <form action="noticias.php">
+                        
+                        <input type="email" name="newslatter" id="newslatter" placeholder="Email">
+        
+                        <input type="submit">
+                    </form>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
